@@ -5,7 +5,7 @@ export default function App() {
   const [theme, setTheme] = useState("light"); // State variable for theme
 
   const handleToggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light"); // Toggle theme state
+    setTheme(theme === "light" ? "#dark" : "#light"); // Toggle theme state
   };
 
   return (
